@@ -1,0 +1,3 @@
+*Soup-testing
+isMatcher
+	^ false

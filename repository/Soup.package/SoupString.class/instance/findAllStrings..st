@@ -1,0 +1,3 @@
+finding strings
+findAllStrings: anObject
+	^ #()

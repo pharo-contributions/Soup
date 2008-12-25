@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SoupTag",
+	"category" : "Soup",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Soup",
+	"type" : "normal"
+}

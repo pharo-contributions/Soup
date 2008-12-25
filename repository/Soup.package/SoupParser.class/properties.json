@@ -1,0 +1,30 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Soup-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"string",
+		"currentData",
+		"currentTag",
+		"tagStack",
+		"quoteStack",
+		"interesting",
+		"startTagOpen",
+		"charRef",
+		"entityRef",
+		"endBracket",
+		"tagFind",
+		"lastTag",
+		"attrFind",
+		"entityOrCharRef",
+		"previous",
+		"literal",
+		"parameters",
+		"incomplete"
+	],
+	"name" : "SoupParser",
+	"type" : "normal"
+}

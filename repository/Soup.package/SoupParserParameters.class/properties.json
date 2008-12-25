@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Soup-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"ForHtml"
+	],
+	"instvars" : [
+		"entityDefs",
+		"selfClosingTags",
+		"nestableInlineTags",
+		"nestableBlockTags",
+		"nestableListTags",
+		"nestableTableTags",
+		"nestableTags",
+		"nonNestableBlockTags",
+		"resetNestingTags",
+		"quoteTags"
+	],
+	"name" : "SoupParserParameters",
+	"type" : "normal"
+}

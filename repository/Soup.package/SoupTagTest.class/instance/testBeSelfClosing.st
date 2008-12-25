@@ -1,0 +1,3 @@
+accessing
+testBeSelfClosing
+	self testIsSelfClosing
