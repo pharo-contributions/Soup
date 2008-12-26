@@ -1,3 +1,3 @@
-as yet unclassified
+converting
 convertCodePoint: codePoint
 	^ codePoint asCharacter asString

@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 equals: aString from: anInteger
 	(anInteger > string size) ifTrue: [^ false].
 	(anInteger + aString size > string size) ifTrue: [^ false].

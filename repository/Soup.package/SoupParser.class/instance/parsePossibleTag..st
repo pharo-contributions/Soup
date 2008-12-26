@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parsePossibleTag: anInteger
 	^ (startTagOpen matchesStreamPrefix: (self readStreamFrom: anInteger))
 		ifTrue: [self parsePossibleStartTag: anInteger]

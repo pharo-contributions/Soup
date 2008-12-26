@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parsePossibleLiteral: anInteger
 	^ (string size > (anInteger + 1))
 		ifTrue: [self parseLiteral: anInteger]

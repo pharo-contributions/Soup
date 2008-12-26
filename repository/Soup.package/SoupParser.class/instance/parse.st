@@ -1,5 +1,5 @@
-as yet unclassified
-go
+parsing
+parse
 	| position end |
 	position := 0.
 	end := string size.

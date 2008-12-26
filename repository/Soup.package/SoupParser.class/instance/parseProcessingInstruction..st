@@ -1,14 +1,14 @@
-as yet unclassified
+parsing
 parseProcessingInstruction: anInteger
-	| matcher |
-	matcher := '>' asRegex.
-	^ (matcher searchStream: (self readStreamFrom: anInteger))
+	| end |
+	end := string findString: '>' startingAt: anInteger.
+	(end > 0)
 		ifTrue: [
 			|  processingInstruction |
 			processingInstruction := string 
 				copyFrom: anInteger + 3 
-				to: (matcher subBeginning: 1).
+				to: end - 1.
 			self handleProcessingInstruction: processingInstruction.
-			matcher subEnd: 1.
-		]
-		ifFalse: [self parseIncomplete: anInteger]
+			^ end
+		].
+	^ self parseIncomplete: anInteger

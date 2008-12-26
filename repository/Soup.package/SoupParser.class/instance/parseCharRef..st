@@ -1,7 +1,4 @@
-as yet unclassified
+parsing
 parseCharRef: anInteger
-	| name i |
-	name := charRef subexpression: 2.
-	self handleCharRef: name.
-	i := charRef subEnd: 2.
-	^ i + 1
+	self handleCharRef: (charRef subexpression: 2).
+	^ (charRef subEnd: 2) + 1

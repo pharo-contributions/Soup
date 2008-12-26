@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseLiteral: anInteger
 	| i |
 	i := anInteger + 1.

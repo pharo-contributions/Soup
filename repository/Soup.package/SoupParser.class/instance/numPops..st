@@ -1,4 +1,4 @@
-as yet unclassified
+handling
 numPops: aString
 	(tagStack size to: 2 by: -1) do: [
 		:i |

@@ -1,3 +1,3 @@
-as yet unclassified
+handling
 popToTag: aString 
-	^ self popToTag: aString inclusive: true
+	self popToTag: aString inclusive: true

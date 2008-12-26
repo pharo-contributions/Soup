@@ -1,5 +1,5 @@
 accessing
-testNextSIbling
+testNextSibling
 	| soup li |
 	soup := Soup fromString: '<ul><li>1<p>A</p>B<li>2<li>3</ul>'.
 	li := (soup findTag: 'li') nextSibling.

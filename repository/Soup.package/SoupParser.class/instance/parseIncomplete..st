@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseIncomplete: anInteger
 	| j |
 	(incomplete matchesStreamPrefix: (self readStreamFrom: anInteger))

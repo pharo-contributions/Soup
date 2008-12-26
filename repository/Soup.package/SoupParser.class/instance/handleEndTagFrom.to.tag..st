@@ -1,4 +1,4 @@
-as yet unclassified
+handling
 handleEndTagFrom: anInteger to: anotherInteger tag: aString
 	(quoteStack isEmpty not and: [quoteStack last ~= aString])
 		ifTrue: [^ self handleDataFrom: anInteger to: anotherInteger].

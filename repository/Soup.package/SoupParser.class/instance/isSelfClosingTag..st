@@ -1,3 +1,3 @@
-as yet unclassified
+handling
 isSelfClosingTag: aString
 	^ parameters selfClosingTags includes: aString

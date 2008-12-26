@@ -1,3 +1,3 @@
-as yet unclassified
+parsing
 readStreamFrom: anInteger
 	^ string readStream position: anInteger

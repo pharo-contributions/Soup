@@ -1,4 +1,4 @@
-as yet unclassified
+handling
 handleData: aString
 	currentData nextPutAll: aString
 

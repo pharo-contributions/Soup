@@ -1,5 +1,4 @@
-as yet unclassified
+handling
 pushTag: aTag
-	"currentTag ifNotNil: [aTag parent: currentTag]."
 	tagStack addLast: aTag.
-	currentTag := aTag.
+

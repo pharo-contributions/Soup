@@ -1,4 +1,4 @@
-as yet unclassified
+massaging
 copy: aString replace: regexString using: aBlock
 	| matcher |
 	matcher := regexString asRegex.

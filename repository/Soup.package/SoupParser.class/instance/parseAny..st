@@ -1,4 +1,4 @@
-as yet unclassified
+handling
 parseAny: anInteger
 	| i j |
 	i := anInteger.

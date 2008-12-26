@@ -1,5 +1,9 @@
-as yet unclassified
+parsing
 parseString: aString
 	string := aString.
-	self feed.
+	self reset.
+	self massage.
+	self parse.
+	self endData.
+	[tagStack last isSoup] whileFalse: [self popTag].
 	^ tagStack last

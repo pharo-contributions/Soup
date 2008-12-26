@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 convertRef: aMatcher
 	(aMatcher subexpression: 3) 
 		ifNotEmpty: [

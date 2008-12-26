@@ -1,4 +1,4 @@
-as yet unclassified
+handling
 endData: aClass
 	| data dataWithoutSeparators element |
 	(currentData size = 0) ifTrue: [^ self].
@@ -11,6 +11,6 @@ endData: aClass
 				ifFalse: [String space]
 		].
 	currentData := ReadWriteStream on: String new.
-	element := aClass parent: currentTag previous: previous contents: data.
+	element := aClass parent: tagStack last previous: previous contents: data.
 	previous := element.
 	 

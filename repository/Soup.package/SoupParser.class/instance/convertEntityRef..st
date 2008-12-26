@@ -1,3 +1,3 @@
-as yet unclassified
+converting
 convertEntityRef: aString
-	^ parameters entityDefs at: aString ifAbsent: [nil]
+	^ parameters entityDefinitions at: aString ifAbsent: [nil]

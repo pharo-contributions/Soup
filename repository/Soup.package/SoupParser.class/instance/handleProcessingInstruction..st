@@ -1,4 +1,4 @@
-as yet unclassified
+handling
 handleProcessingInstruction: aString
 	self endData.
 	self handleData: aString.

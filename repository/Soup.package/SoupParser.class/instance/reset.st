@@ -1,7 +1,6 @@
-as yet unclassified
+initializing
 reset
 	currentData := ReadWriteStream on: String new.
-	currentTag := nil.
 	tagStack := OrderedCollection new.
 	quoteStack := OrderedCollection new.
 	literal := false.

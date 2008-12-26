@@ -1,4 +1,4 @@
-as yet unclassified
+handling
 handleEndTag: aString
 	(quoteStack isEmpty not and: [quoteStack last ~= aString])
 		ifTrue: [^ self handleData: (String streamContents: [

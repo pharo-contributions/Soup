@@ -8,7 +8,6 @@
 	"instvars" : [
 		"string",
 		"currentData",
-		"currentTag",
 		"tagStack",
 		"quoteStack",
 		"interesting",
@@ -17,7 +16,6 @@
 		"entityRef",
 		"endBracket",
 		"tagFind",
-		"lastTag",
 		"attrFind",
 		"entityOrCharRef",
 		"previous",

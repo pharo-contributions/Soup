@@ -1,7 +1,4 @@
-as yet unclassified
+parsing
 parseEntityRef: anInteger
-	| name i |
-	name := entityRef subexpression: 2.
-	self handleEntityRef: name.
-	i := entityRef subEnd: 2.
-	^ i + 1
+	self handleEntityRef: (entityRef subexpression: 2).
+	^ (entityRef subEnd: 2) + 1

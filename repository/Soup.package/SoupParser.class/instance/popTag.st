@@ -1,5 +1,5 @@
-as yet unclassified
+handling
 popTag
 	tagStack removeLast.
-	tagStack isEmpty ifFalse: [currentTag := tagStack last].
-	^ currentTag
+
+

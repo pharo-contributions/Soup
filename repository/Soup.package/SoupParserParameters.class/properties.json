@@ -8,7 +8,6 @@
 		"ForHtml"
 	],
 	"instvars" : [
-		"entityDefs",
 		"selfClosingTags",
 		"nestableInlineTags",
 		"nestableBlockTags",
@@ -17,7 +16,8 @@
 		"nestableTags",
 		"nonNestableBlockTags",
 		"resetNestingTags",
-		"quoteTags"
+		"quoteTags",
+		"entityDefinitions"
 	],
 	"name" : "SoupParserParameters",
 	"type" : "normal"

@@ -1,4 +1,4 @@
-as yet unclassified
+handling
 handleDataFrom: anInteger to: anotherInteger
 	anInteger to: anotherInteger do: [
 		:i |

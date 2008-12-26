@@ -1,4 +1,4 @@
-as yet unclassified
+handling
 handleCharRef: aString
 	^ self handleData: (String streamContents: [
 		:aStream |

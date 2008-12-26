@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 findInterestingFrom: anInteger
 	^ (interesting searchStream: (self readStreamFrom: anInteger))
 		ifTrue: [interesting subBeginning: 1]

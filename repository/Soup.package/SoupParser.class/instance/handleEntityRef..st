@@ -1,4 +1,4 @@
-as yet unclassified
+handling
 handleEntityRef: aString
 	^ self handleData: (String streamContents: [
 		:aStream |
