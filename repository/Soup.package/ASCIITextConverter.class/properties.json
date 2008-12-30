@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TextConverter",
+	"category" : "Soup-TextConversion",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ASCIITextConverter",
+	"type" : "normal"
+}

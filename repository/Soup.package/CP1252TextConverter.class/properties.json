@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TextConverter",
+	"category" : "Soup-TextConversion",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"FromTable",
+		"ToTable"
+	],
+	"instvars" : [ ],
+	"name" : "CP1252TextConverter",
+	"type" : "normal"
+}

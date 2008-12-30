@@ -1,6 +1,7 @@
 parsing
 parseString: aString
 	string := aString.
+	self decode.
 	self reset.
 	self massage.
 	self parse.
