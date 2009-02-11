@@ -19,7 +19,7 @@ parseStartTagAttribute: anInteger into: aDictionary
 					].
 				attrValue := self 
 					copy: attrValue 
-					replace: '&(([a-zA-Z][-.a-zA-Z0-9]*)|#(\w+))(;)?' 
+					replace: refFind
 					using: [:aMatcher | self convertRef: aMatcher].
 			]
 		].

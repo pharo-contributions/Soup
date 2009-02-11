@@ -21,7 +21,8 @@
 		"previous",
 		"literal",
 		"parameters",
-		"incomplete"
+		"incomplete",
+		"refFind"
 	],
 	"name" : "SoupParser",
 	"type" : "normal"
