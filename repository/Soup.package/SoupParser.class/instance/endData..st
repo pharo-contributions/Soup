@@ -8,7 +8,7 @@ endData: aClass
 		ifEmpty: [
 			data := (data includes: Character cr)
 				ifTrue: [String cr]
-				ifFalse: [String space]
+				ifFalse: [' ']
 		].
 	currentData := ReadWriteStream on: String new.
 	element := aClass parent: tagStack last previous: previous contents: data.
