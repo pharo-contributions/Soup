@@ -1,3 +1,3 @@
 accessing
 stringStartsWith: aString
-	^ string startsWith: (self decodePythonString: aString)
+	^ string beginsWith: (self decodePythonString: aString)
