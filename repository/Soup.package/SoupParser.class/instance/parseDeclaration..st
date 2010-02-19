@@ -5,7 +5,7 @@ parseDeclaration: anInteger
 	(matcher matchesStreamPrefix: (self readStreamFrom: anInteger))
 		ifTrue: [
 			self handleDeclaration: (matcher subexpression: 2).
-			^ (matcher subEnd: 1) first.
+			^( matcher subEnd: 1) first.
 		].
 	^ self parseIncomplete: anInteger
 	
