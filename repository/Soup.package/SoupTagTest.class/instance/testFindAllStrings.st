@@ -1,8 +1,8 @@
 finding strings
 testFindAllStrings
-"self run: #testFindAllStrings"
-	| soup |
-	soup := Soup fromString: '<p>abcxyz<span>abcd</span>abc</p>'.
-	self assert: ((soup findAllStrings: 'abcd') size = 1).
-	self assert: ((soup findAllStrings: 'abc' asRegex) size = 3).
-
+	| soup tag |
+	soup := Soup fromString: '<p>abc<span>def</span></p>'.
+	tag := soup p.
+	self assert: (tag findString: 'def') contents = 'def'.
+	self assert: (tag findString: #('def')) contents = 'def'.
+	self assert: (tag findString: 'def' asRegex) contents = 'def'.

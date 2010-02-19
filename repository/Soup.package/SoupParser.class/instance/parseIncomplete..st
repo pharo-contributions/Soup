@@ -6,7 +6,7 @@ parseIncomplete: anInteger
 			self handleDataFrom: anInteger to: anInteger.
 			^ anInteger + 1
 		].
-	j := incomplete subEnd: 1.
+	j := (incomplete subEnd: 1) first.
 	j >= string size ifTrue: [^ -1].
 	self handleDataFrom: anInteger + 1 to: j.
 	^ j

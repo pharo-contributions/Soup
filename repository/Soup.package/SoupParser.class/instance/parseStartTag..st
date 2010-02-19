@@ -4,11 +4,11 @@ parseStartTag: anInteger
 	(endBracket searchStream: (self readStreamFrom: anInteger + 1))
 		ifFalse: [^ self parseIncomplete: anInteger].
 	attrs := Dictionary new.
-	j := endBracket subBeginning: 1.
+	j := (endBracket subBeginning: 1) first.
 	(tagFind matchesStreamPrefix: (self readStreamFrom: anInteger + 1))
 		ifFalse: [self error: '#parseStartTagFrom: should not have been sent']
 		ifTrue: [
-			k := tagFind subEnd: 1.
+			k := (tagFind subEnd: 1) first.
 			tag := (tagFind subexpression: 1) asLowercase
 		].
 	[k < j] whileTrue: [

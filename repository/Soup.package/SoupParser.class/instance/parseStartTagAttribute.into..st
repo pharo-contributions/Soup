@@ -24,4 +24,4 @@ parseStartTagAttribute: anInteger into: aDictionary
 			]
 		].
 	aDictionary at: attrName put: attrValue.
-	^ attrFind subEnd: 1.
+	^ (attrFind subEnd: 1) first.
