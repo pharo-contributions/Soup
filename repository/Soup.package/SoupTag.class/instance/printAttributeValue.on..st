@@ -18,7 +18,7 @@ printAttributeValue: aString on: aStream
 	string := bareSymbolMatcher copy: string translatingMatchesUsing: [
 		:matchedString |
 		(entityMatcher matchesStreamPrefix: (string readStream
-			position: (bareSymbolMatcher subEnd: 1);
+			position: (bareSymbolMatcher subEnd: 1) first;
 			yourself))
 				ifTrue: [matchedString]
 				ifFalse: [replacementEntities at: matchedString]
