@@ -1,6 +1,6 @@
 accessing
 text
-	"Returns a string containing the concatenation of the texts in the receiver"
+	"Return a string containing the concatenation of the texts in the receiver. For an example, have a look at (SoupDocumentation>>#accessingText)"
 
 	^ String streamContents: 
 			[ :aStream |
