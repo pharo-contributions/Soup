@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testLiteralMode
 	| soup |
 	soup := Soup fromString: '<script>if (i<imgs.length)</script><b>Foo</b>'.

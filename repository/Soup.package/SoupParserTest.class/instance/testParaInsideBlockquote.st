@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testParaInsideBlockquote
 	| soup |
 	soup := Soup fromString: '<blockquote><p><b>Foo</blockquote><p>Bar'.

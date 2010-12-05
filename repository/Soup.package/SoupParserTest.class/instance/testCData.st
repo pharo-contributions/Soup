@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCData
 	| soup data |
 	soup := Soup fromString: '<root>foo<![CDATA[foobar]]>bar</root>'.

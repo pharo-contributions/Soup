@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 assertSoupFrom: aString printsAs: anotherString
 	| soup |
 	soup := Soup fromString: aString.

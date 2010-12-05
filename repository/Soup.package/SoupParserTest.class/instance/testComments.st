@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testComments
 	| soup xml |
 	xml := 'foo<!--foobar-->baz'.

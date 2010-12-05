@@ -1,2 +1,4 @@
-as yet unclassified
+tests
 testNonBreakingSpaces
+
+	self halt.

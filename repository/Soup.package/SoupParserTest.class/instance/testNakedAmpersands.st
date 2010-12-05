@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNakedAmpersands
 	| invalidUrl validUrl |
 	invalidUrl := '<a href="http://example.org?a=1&b=2;3">foo</a>'.

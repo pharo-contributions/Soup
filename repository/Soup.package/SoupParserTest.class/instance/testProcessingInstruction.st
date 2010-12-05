@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testProcessingInstruction
 	| soup data |
 	soup := Soup fromString: 'abc<?pi>def'.

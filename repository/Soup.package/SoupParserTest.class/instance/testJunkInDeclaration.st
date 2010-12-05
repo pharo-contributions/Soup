@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testJunkInDeclaration
 	self 
 		assertSoupFrom: '<! Foo = -8>a'

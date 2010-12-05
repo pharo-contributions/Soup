@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testBadNestedTables
 	| soup |
 	soup := Soup fromString: '<table><tr><table><tr id=''nested''>'.

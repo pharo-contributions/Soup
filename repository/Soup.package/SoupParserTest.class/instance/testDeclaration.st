@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDeclaration
 	| xml |
 	xml := 'foo<!DOCTYPE foobar>baz'.

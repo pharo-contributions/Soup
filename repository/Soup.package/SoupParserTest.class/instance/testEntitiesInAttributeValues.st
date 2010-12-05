@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEntitiesInAttributeValues
 	| uri link |
 	self assertSoupFrom: '<x t="x&#241;">' printsAs: '<x t="xñ"></x>'.

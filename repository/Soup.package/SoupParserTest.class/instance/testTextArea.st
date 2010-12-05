@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTextArea
 	| soup |
 	soup := Soup fromString: '<textarea><b>This is an example of an HTML tag</b><&<&</textarea>'.
