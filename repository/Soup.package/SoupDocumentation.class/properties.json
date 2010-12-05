@@ -5,13 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"parent",
-		"previous",
-		"next",
-		"previousSibling",
-		"nextSibling"
-	],
-	"name" : "SoupElement",
+	"instvars" : [ ],
+	"name" : "SoupDocumentation",
 	"type" : "normal"
 }
