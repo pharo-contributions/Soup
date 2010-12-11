@@ -1,3 +1,4 @@
 finding strings
-findAllStrings: anObject
+findAllStrings: aStringOrRegex
+	"There is no string inside a string"
 	^ #()
