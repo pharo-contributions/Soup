@@ -9,4 +9,4 @@ introduction
 
  Soup automatically converts incoming documents to Unicode and outgoing documents to UTF-8. You don''t have to think about encodings, unless the document doesn''t specify an encoding and  Soup can''t autodetect one. Then you just have to specify the original encoding.
 
- Soup parses anything you give it, and does the tree traversal stuff for you. You can tell it "Find all the links", or "Find all the links of class externalLink", or "Find all the links whose urls match "foo.com", or "Find the table heading that''s got bold text, then give me that text."'
+ Soup parses anything you give it, and does the tree traversal stuff for you.'

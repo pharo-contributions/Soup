@@ -1,4 +1,4 @@
-finding tags
+finding tags implementation
 findNextSiblingTags: anObject stream: aStream
 	| findBlock |
 	nextSibling ifNil: [^ self].
