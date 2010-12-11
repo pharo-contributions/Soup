@@ -2,8 +2,7 @@ finding strings
 findString: anObject
 	| block |
 	block := self createFindStringBlock: anObject.
-	self childrenDo: [
-		:eachElement |
+	self childrenDo: [ :eachElement |
 		eachElement isString
 			ifTrue: [(block value: eachElement) ifTrue: [^ eachElement]]
 			ifFalse: [
