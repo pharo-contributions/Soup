@@ -8,7 +8,5 @@ testBeParentOf
 	parent beParentOf: childTwo.
 	self assert: childOne nextSibling = childTwo.
 	self assert: childTwo previousSibling = childOne.
-	parent childrenDo: [
-		:anElement |
-		self assert: ({childOne. childTwo.} includes: anElement)
-	].
+	parent childrenDo: [ :anElement |
+		self assert: ({childOne. childTwo.} includes: anElement) ].

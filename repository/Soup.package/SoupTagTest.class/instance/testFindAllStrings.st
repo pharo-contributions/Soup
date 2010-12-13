@@ -1,7 +1,7 @@
 finding strings
 testFindAllStrings
 	"self run: #testFindAllStrings"
-	"Returns all the string equals to the argument. Note that the argument can be a regex to match several elements." 
+	"Returns all the strings equal to the argument. Note that the argument can be a regex to match several elements." 
 	
 	| soup |
 	soup := Soup fromString: '<p>abcxyz<span>abcd</span>abc</p>'.

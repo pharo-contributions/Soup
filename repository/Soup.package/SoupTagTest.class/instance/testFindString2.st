@@ -2,6 +2,7 @@ finding strings
 testFindString2
 	"self debug: #testFindString2"
 	| soup tag |
+	"Now we build a soup element with two branches containing different strings"
 	soup := Soup fromString: '<p>abc<span>def</span></p><b>abcdef<span>defi</span><span>defi2</span></b>'.
 	tag := soup p.
 	self assert: (tag findString: 'def') contents = 'def'.

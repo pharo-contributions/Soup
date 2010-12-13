@@ -6,7 +6,5 @@ testChildrenDo
 	childTwo := SoupString new.
 	tag addChild: childOne.
 	tag addChild: childTwo.
-	tag childrenDo: [
-		:anElement |
-		self assert: ({childOne. childTwo} includes: anElement) 
-	].
+	tag childrenDo: [ :anElement |
+		self assert: ({childOne. childTwo} includes: anElement) ].

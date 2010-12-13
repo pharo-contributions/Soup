@@ -9,13 +9,9 @@ testPrintOn
 	self assert: tag printString = '<p class="b" id="a"></p>'.
 	tag addChild: (SoupTag named: 'span').
 	self assert: tag printString = '<p class="b" id="a"><span></span></p>'.
-	(tag childAt: 1) addChild: (SoupString new
-		contents: 'abc';
-		yourself).
+	(tag childAt: 1) addChild: (SoupString new contents: 'abc'; yourself).
 	self assert: tag printString = '<p class="b" id="a"><span>abc</span></p>'.
-	tag addChild: (SoupTag named: 'br')
-		beSelfClosing; 
-		yourself.
+	tag addChild: (SoupTag named: 'br') beSelfClosing; yourself.
 	self assert: tag printString = '<p class="b" id="a"><span>abc</span><br /></p>'.		
 	
 	

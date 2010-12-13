@@ -1,7 +1,6 @@
 enumerating
 childStringsDo: aBlock
-	"Evaluate the argument, an Unary block, on the direct leaves that are plain strings. 
-	Strings decorated (e.g., <p>, <b> are not iterated"
+	"Apply the argument, an Unary block, on the direct children that are plain strings. Strings decorated (e.g., <p>, <b>...) are not iterated"
 	
 	self childrenDo: 
 		[ :anElement |
