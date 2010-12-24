@@ -68,4 +68,4 @@ sniffNonAsciiCompatibleEncoding
 				convertFromEncoding: sniffedXmlEncoding) 
 					convertToEncoding: 'utf-8'
 		].
-	sniffedXmlEncoding := 'ascii'
+	sniffedXmlEncoding := 'latin1'
