@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 	ToTable := Dictionary new.
 	ToTable at: 16r80 put: 16r20AC.

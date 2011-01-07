@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "TextConverter",
 	"category" : "Soup-Core-TextConversion",
 	"classinstvars" : [ ],
