@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Soup-Core-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"string",
+		"encoding",
+		"metaEncoding",
+		"xmlEncoding",
+		"sniffedXmlEncoding",
+		"shouldConvertSmartQuotes",
+		"convertSmartQuotesTo",
+		"xmlForSmartQuotes",
+		"htmlForSmartQuotes",
+		"xmlData"
+	],
+	"name" : "SoupDecoder",
+	"type" : "normal"
+}

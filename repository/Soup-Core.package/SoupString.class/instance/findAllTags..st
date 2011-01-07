@@ -1,0 +1,3 @@
+finding tags
+findAllTags: anObject
+	^ #()

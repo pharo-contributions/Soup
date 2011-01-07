@@ -1,0 +1,3 @@
+defaults
+defaultParserParameters
+	^ SoupParserParameters forHtml

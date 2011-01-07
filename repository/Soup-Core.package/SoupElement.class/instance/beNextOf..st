@@ -1,0 +1,5 @@
+initializing
+beNextOf: anElement
+
+	
+	
