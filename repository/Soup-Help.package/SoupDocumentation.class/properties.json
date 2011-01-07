@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "StephaneDucasse 1/7/2011 15:54",
 	"super" : "Object",
 	"category" : "Soup-Help",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "MyHelpForNow",
+	"name" : "SoupDocumentation",
 	"type" : "normal"
 }
