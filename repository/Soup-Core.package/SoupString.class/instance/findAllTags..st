@@ -1,3 +1,0 @@
-finding tags
-findAllTags: anObject
-	^ #()

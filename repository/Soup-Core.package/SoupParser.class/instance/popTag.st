@@ -1,5 +1,0 @@
-handling
-popTag
-	tagStack removeLast.
-
-
