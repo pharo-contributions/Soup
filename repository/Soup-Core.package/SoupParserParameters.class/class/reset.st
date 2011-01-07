@@ -1,0 +1,3 @@
+defaults
+reset
+	ForHtml := nil
