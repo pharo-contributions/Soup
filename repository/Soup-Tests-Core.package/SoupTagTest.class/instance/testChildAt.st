@@ -1,0 +1,3 @@
+accessing
+testChildAt
+	self testAddChild
