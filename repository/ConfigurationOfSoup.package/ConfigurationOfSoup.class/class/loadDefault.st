@@ -2,4 +2,5 @@ load
 loadDefault
 	"self loadDefault"
 
-	^ self loadMostRecentCoreWithTests
+	"^ self loadMostRecentCoreWithTests"
+	^ self load.
