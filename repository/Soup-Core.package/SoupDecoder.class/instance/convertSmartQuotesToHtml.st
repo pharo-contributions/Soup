@@ -1,3 +1,3 @@
-as yet unclassified
+convert
 convertSmartQuotesToHtml
 	convertSmartQuotesTo := #html

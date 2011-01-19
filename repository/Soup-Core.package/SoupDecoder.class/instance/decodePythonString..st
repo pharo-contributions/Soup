@@ -1,4 +1,4 @@
-as yet unclassified
+convert
 decodePythonString: aString
 	^ String streamContents: [
 		:aStream |

@@ -1,4 +1,4 @@
-as yet unclassified
+convert
 decodeFrom: encodingName
 	| converter |
 	converter := TextConverter newForEncoding: encodingName.

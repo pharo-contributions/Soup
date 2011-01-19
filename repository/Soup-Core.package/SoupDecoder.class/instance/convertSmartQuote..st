@@ -1,4 +1,4 @@
-as yet unclassified
+convert
 convertSmartQuote: aString
 	^ convertSmartQuotesTo = #xml
 		ifTrue: [self convertSmartQuoteToXml: aString]

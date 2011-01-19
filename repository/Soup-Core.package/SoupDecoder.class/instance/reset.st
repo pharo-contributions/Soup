@@ -1,4 +1,4 @@
-as yet unclassified
+convert
 reset
 	xmlEncoding := nil.
 	sniffedXmlEncoding := nil.
