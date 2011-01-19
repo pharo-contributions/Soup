@@ -1,4 +1,0 @@
-friend
-currentCharSize
-
-	^ 1.
