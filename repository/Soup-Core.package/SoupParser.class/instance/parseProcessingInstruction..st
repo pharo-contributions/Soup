@@ -1,7 +1,7 @@
 parsing
 parseProcessingInstruction: anInteger
 	| end |
-	end := string findString: '>' startingAt: anInteger.
+	end := string findString: '>' startingAt: anInteger +1 .
 	(end > 0)
 		ifTrue: [
 			|  processingInstruction |

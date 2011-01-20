@@ -1,5 +1,6 @@
 accessing
 sniffNonAsciiCompatibleEncoding
+
 	(self stringStartsWith: '\x4c\x6f\xa7\x94')
 		ifTrue: [
 	  		sniffedXmlEncoding := nil.
@@ -68,4 +69,4 @@ sniffNonAsciiCompatibleEncoding
 				convertFromEncoding: sniffedXmlEncoding) 
 					convertToEncoding: 'utf-8'
 		].
-	sniffedXmlEncoding := 'ascii'
+	sniffedXmlEncoding := 'latin1'
