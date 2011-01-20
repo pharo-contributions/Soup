@@ -1,5 +1,6 @@
 as yet unclassified
 testSmartQuotesNotSoSmartAnymore
+	"self debug: #testSmartQuotesNotSoSmartAnymore"
 	| decoder |
 	decoder := SoupDecoder new.
 	decoder convertSmartQuotesToHtml.
