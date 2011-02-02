@@ -8,3 +8,5 @@ Gofer new
 	load.
 	
 (Smalltalk at: #ConfigurationOfXMLSupport) perform: #loadDefault.
+
+(Smalltalk at: #ConfigurationOfSoup) perform: #loadDefault.
