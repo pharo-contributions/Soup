@@ -1,3 +1,4 @@
-as yet unclassified
+filtering
 descendant
+
 	^ self descendant: [ :tag| true]

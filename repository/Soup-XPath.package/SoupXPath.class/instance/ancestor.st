@@ -1,6 +1,7 @@
-as yet unclassified
+filtering
 ancestor
-	|ancestors ancestor|
+
+	| ancestors ancestor |
 	
 	ancestors := Set new.
 	

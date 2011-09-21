@@ -1,3 +1,4 @@
-as yet unclassified
+filtering
 // anObject
-	^ self child: anObject
+
+	^ self descendant: anObject

@@ -1,5 +1,6 @@
-as yet unclassified
+filtering
 child: anObject
-	^ SoupXPath streamContents: [ :stream| 
+
+	^ self class streamContents: [ :stream| 
 			self do: [ :tag|
 				tag findAllChildTags: anObject stream: stream]].

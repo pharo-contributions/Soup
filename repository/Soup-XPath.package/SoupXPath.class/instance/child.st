@@ -1,3 +1,4 @@
-as yet unclassified
+filtering
 child
+
 	^ self child: [ :tag| true]
