@@ -8,9 +8,11 @@ baseline10: spec
 		spec author: 'StephaneDucasse'.
 		spec timestamp: '29/12/2011 12:29'.
 		
-		spec project: 'XMLSupport' with: #'stable'
-		"in 1.4 I should get 1.2.1"
-		
+		spec project: 'XMLSupport' with: [
+			spec className: 'ConfigurationOfXMLSupport';
+			versionString: #stable;
+			repository: 'http://www.squeaksource.com/XMLSupport'.
+			]
 		
 		]
 	

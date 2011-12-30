@@ -4,7 +4,7 @@ version10: spec
 	<version: '0.1'> 
 	spec for: #pharo do: [
 	spec blessing: #development. 		
-	spec project: 'XMLSupport' with: #'stable'.
+	spec project: 'XMLSupport' with: '1.2.1'.
 	
 	spec 
 		package: 'Soup-Core' with: 'Soup-Core-StephaneDucasse.6'; 
