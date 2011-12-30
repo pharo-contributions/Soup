@@ -7,6 +7,7 @@ baseline10: spec
 		spec description: 'First Full Configuration'. 
 		spec author: 'StephaneDucasse'.
 		spec timestamp: '29/12/2011 12:29'.
+		spec repository: 'http://www.squeaksource.com/Soup'.
 		
 		spec project: 'XMLSupport' with: [
 			spec className: 'ConfigurationOfXMLSupport';
