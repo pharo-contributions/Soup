@@ -1,12 +1,16 @@
 A ConfigurationOfSoup is a work under way.
+(ConfigurationOfXMLWriter project version: #'stable') load
 
-It should express that it depends on XMLSupport.
+should load but I'm testing it.
 
+
+This is the old way to load it.
+-------------------------------------------
 Gofer new
 	squeaksource: 'XMLSupport'; 
 	version: 'ConfigurationOfXMLSupport-JAAyer.43';
 	load.
 	
-(Smalltalk at: #ConfigurationOfXMLSupport) perform: #loadDefault.
+(ConfigurationOfXMLWriter project version: '0.2') load
 
-(Smalltalk at: #ConfigurationOfSoup) perform: #loadDefault.
+(Smalltalk at: #ConfigurationOfSoup) project load:  #loadDefault.
