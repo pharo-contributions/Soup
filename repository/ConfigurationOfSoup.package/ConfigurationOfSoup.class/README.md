@@ -1,5 +1,6 @@
 A ConfigurationOfSoup is a work under way.
-(ConfigurationOfXMLWriter project version: #'stable') load
+(ConfigurationOfSoup project version: #'stable') load
+(ConfigurationOfSoup project version: '1.0') load
 
 should load but I'm testing it.
 
