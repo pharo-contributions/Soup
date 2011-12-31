@@ -1,7 +1,7 @@
 version
 version10: spec 
-
-	<version: '1.0'> 
+	<version: '1.0' imports:  #('1.0-baseline')>
+	 
 	spec for: #pharo do: [
 	spec blessing: #development. 		
 	spec project: 'XMLSupport' with: '1.2.1'.
