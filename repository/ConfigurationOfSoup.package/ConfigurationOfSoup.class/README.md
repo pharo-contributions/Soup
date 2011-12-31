@@ -1,8 +1,13 @@
 A ConfigurationOfSoup is a work under way.
+
 (ConfigurationOfSoup project version: #'stable') load
+
 (ConfigurationOfSoup project version: '1.0') load
 
 should load but I'm testing it.
+
+
+
 
 
 This is the old way to load it.
