@@ -10,8 +10,7 @@ baseline10: spec
 		spec repository: 'http://www.squeaksource.com/Soup'.
 		
 		spec 
-			package: 'Soup-Core' with: [spec "requires: 'XMLSupport'"
-										  requires: 'XML-Parser' ; requires: 'XML-Tests-Parser'];
+			package: 'Soup-Core' with: [spec requires: 'XMLSupport' ];
 			package: 'Soup-Tests-Core' with: [spec requires: 'Soup-Core'] ;
 			package: 'Soup-Help' with: [spec requires: 'Soup-Core'].
 			
