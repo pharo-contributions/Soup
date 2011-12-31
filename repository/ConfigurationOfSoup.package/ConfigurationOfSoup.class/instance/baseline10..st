@@ -11,7 +11,7 @@ baseline10: spec
 		
 		spec 
 			package: 'Soup-Core'; 
-			package: 'Soup-Test-Core' with: [spec requires: 'Soup-Core'] ;
+			package: 'Soup-Tests-Core' with: [spec requires: 'Soup-Core'] ;
 			package: 'Soup-Help' with: [spec requires: 'Soup-Core'].
 			
 		spec project: 'XMLSupport' with: [
