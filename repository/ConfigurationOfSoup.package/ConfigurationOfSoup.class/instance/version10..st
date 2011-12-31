@@ -1,7 +1,7 @@
 version
 version10: spec 
 
-	<version: '0.1'> 
+	<version: '1.0'> 
 	spec for: #pharo do: [
 	spec blessing: #development. 		
 	spec project: 'XMLSupport' with: '1.2.1'.
