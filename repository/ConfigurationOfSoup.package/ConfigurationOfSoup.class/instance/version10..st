@@ -4,7 +4,11 @@ version10: spec
 	 
 	spec for: #pharo do: [
 		spec blessing: #development. 		
-		spec project: 'XMLSupport' with: '1.2.0'.
+		spec 
+			project: 'XMLSupport' 
+			with: [spec 
+					loads: #('XML-Parser' 'XML-Tests-Parser'); 
+					versionString: '1.2.0'].
 	
 		spec 
 			package: 'Soup-Core' with: 'Soup-Core-sd.11'; 
