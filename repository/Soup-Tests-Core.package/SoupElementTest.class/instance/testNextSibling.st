@@ -1,10 +1,15 @@
-accessing
+finding tags
 testNextSibling
-	| soup li |
-	soup := Soup fromString: '<ul><li>1<p>A</p>B<li>2<li>3</ul>'.
-	li := (soup findTag: 'li') nextSibling.
-	self assert: li name = 'li'.
-	self assert: li string = '2'.
-	self assert: (soup findString: '1') nextSibling name = 'p'.
-	self assert: (soup findTag: 'p') nextSibling contents = 'B'.
-	self assert: (soup findTag: 'p') nextSibling previousSibling nextSibling contents = 'B'.
+	| soup b c|
+	soup := Soup fromString: '<b id="1"><b id="2">abc<b id="3">def<b id="4">'.
+	b := soup findString: 'abc'.
+	c := soup findTag: [:e | e id = '2'].
+	b nextSibling: (SoupTag new name: 'newTag').
+	c nextSibling: SoupTag new.
+	c nextSibling attributeAt: 'at' put: 'newAt'.
+	self assert: (b nextSibling isTag).
+	self assert: (b nextSibling name = 'newTag').
+	self assert: (c nextSibling hasAttributes).
+	self assert: ((c nextSibling attributeAt: 'at') = 'newAt').
+
+	
