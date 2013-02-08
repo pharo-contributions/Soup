@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "StephaneDucasse 1/7/2011 15:54",
-	"super" : "Object",
+	"super" : "CustomHelp",
 	"category" : "Soup-Help",
 	"classinstvars" : [ ],
 	"pools" : [ ],

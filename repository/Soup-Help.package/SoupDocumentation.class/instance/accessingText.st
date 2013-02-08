@@ -1,6 +1,5 @@
-documentation
+pages
 accessingText
-	<systemHelp>
 	
 	| doc |
 	"You should use the method fromString: to a Soup representation of your HTML page.
