@@ -30,4 +30,4 @@ version13: spec
 		
 	spec for: #zinc do: [
 		spec 
-			package: 'Soup-Zinc-SeanDeNigris.1' ]
+			package: 'Soup-Zinc' with: 'Soup-Zinc-SeanDeNigris.1' ]
