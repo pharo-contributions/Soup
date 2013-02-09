@@ -1,4 +1,4 @@
 instance creation
-fromUrl: aString
-	Transcript show: aString; cr; flush.
-	^ self fromString: (HTTPClient httpGet: aString) contents
+fromUrl: urlObject
+
+	^ self fromString: urlObject asUrl retrieveContents.

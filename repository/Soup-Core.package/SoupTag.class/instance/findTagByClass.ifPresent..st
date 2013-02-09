@@ -1,5 +1,5 @@
 finding tags
 findTagByClass: aString ifPresent: aBlock
 	^ self 
-		findTag: [:aTag | self hasClass: aString]
+		findTag: [:aTag | (aTag attributeAt: 'class') = aString]
 		ifPresent: aBlock
