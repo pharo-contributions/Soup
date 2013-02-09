@@ -3,7 +3,7 @@ testFromUrl
 	"Note: if Zinc is present, a ZnUrl can also be passed as an argument to #fromUrl: if Soup-Zinc is loaded"
 
 	| soup urlString url |
-	urlString := 'http://www.googdlfkdlfkle.com'.
+	urlString := 'http://www.google.com'.
 	url := urlString asUrl.
 	[
 		soup := Soup fromUrl: urlString.
