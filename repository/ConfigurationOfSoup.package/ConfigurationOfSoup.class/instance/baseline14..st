@@ -19,8 +19,13 @@ baseline14: spec
 			spec className: 'ConfigurationOfXMLSupport';
 			versionString: #stable;
 			repository: 'http://www.squeaksource.com/XMLSupport'.
-			]
-		].
+			].
+		
+		spec
+			group: 'default' with: #('Core' );
+			group: 'Core' with: #('Soup-Core' 'Soup-XPath' 'Soup-Tests-Core')
+			].
+		
 	spec for: #zinc do: [
 		spec 
 			package: 'Soup-Zinc';
