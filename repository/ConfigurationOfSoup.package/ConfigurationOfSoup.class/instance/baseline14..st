@@ -22,8 +22,9 @@ baseline14: spec
 			].
 		
 		spec
-			group: 'default' with: #('Core' );
-			group: 'Core' with: #('Soup-Core' 'Soup-XPath' 'Soup-Tests-Core')
+			group: 'default' with: #('Core' 'Tests' );
+			group: 'Core' with: #('Soup-Core' 'Soup-XPath' );
+			group: 'Tests' with: #('Soup-Tests-Core')
 			].
 		
 	spec for: #zinc do: [
