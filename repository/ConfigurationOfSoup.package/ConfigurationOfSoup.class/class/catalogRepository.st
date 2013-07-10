@@ -2,4 +2,4 @@ catalog
 catalogRepository
 
 	^ '!!!! Repository: 
-	', self repositoryUrlString 
+	', Character cr asString, '*', self repositoryUrlString, '*' 
