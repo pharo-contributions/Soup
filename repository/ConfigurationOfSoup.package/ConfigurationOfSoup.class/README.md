@@ -1,4 +1,4 @@
-!!!Current loading expressions
+!!!Current loading expressions and dev history
  
 [[[
 (ConfigurationOfSoup project version: #'stable') load
