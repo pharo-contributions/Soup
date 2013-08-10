@@ -14,13 +14,7 @@ baseline14: spec
 				package: 'Soup-Tests-Core' with: [ spec requires: 'Soup-Core' ];
 				package: 'Soup-Help' with: [ spec requires: 'Soup-Core' ];
 				package: 'Soup-XPath' with: [ spec requires: 'Soup-Core' ].
-			spec
-				project: 'XMLSupport'
-				with: [ 
-					spec
-						className: 'ConfigurationOfXMLSupport';
-						versionString: #stable;
-						repository: 'http://www.squeaksource.com/XMLSupport' ].
+			spec project: 'XMLSupport' with: [ self XMLSupportProjectSpec: spec ].
 			spec
 				group: 'default' with: #('Core' 'Tests');
 				group: 'Core' with: #('Soup-Core' 'Soup-XPath');
