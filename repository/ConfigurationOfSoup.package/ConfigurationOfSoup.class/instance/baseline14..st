@@ -8,7 +8,7 @@ baseline14: spec
 			spec description: 'Migrated to SmalltalkHub'.
 			spec author: 'StephaneDucasse'.
 			spec timestamp: '21/02/2013'.
-			spec repository: self class repositoryUrlString.
+			spec repository: self repositoryUrlString.
 			spec
 				package: 'Soup-Core' with: [ spec requires: 'XMLSupport' ];
 				package: 'Soup-Tests-Core' with: [ spec requires: 'Soup-Core' ];

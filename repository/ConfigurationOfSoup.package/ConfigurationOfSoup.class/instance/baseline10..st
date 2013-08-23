@@ -8,7 +8,7 @@ baseline10: spec
 			spec description: 'First Full Configuration'.
 			spec author: 'StephaneDucasse'.
 			spec timestamp: '29/12/2011 12:29'.
-			spec repository: self repositoryUrlString.
+			spec repository: 'http://www.squeaksource.com/Soup'.
 			spec
 				package: 'Soup-Core' with: [ spec requires: 'XMLSupport' ];
 				package: 'Soup-Tests-Core' with: [ spec requires: 'Soup-Core' ];
