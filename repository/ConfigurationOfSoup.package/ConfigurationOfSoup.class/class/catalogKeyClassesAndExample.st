@@ -1,5 +1,5 @@
 catalog
-catalogExampleOrKeyClasses
+catalogKeyClassesAndExample
 
 	^ 'It is composed of some keys classes: 
 		
