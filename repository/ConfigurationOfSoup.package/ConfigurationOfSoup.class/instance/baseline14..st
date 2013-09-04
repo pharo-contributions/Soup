@@ -13,15 +13,26 @@ baseline14: spec
 				package: 'Soup-Core' with: [ spec requires: 'XMLSupport' ];
 				package: 'Soup-Tests-Core' with: [ spec requires: 'Soup-Core' ];
 				package: 'Soup-Help' with: [ spec requires: 'Soup-Core' ];
-				package: 'Soup-XPath' with: [ spec requires: 'Soup-Core' ].
+				package: 'Soup-XPath' with: [ spec requires: 'Soup-Core' ];
+				package: 'Soup-Zinc' with: [ spec requires: 'Soup-Core' ].
 			spec project: 'XMLSupport' with: [ self XMLSupportProjectSpec: spec ].
 			spec
 				group: 'default' with: #('Core' 'Tests');
 				group: 'Core' with: #('Soup-Core' 'Soup-XPath');
 				group: 'Tests' with: #('Soup-Tests-Core') ].
 	spec
-		for: #zinc
+		for: #gemstone
 		do: [ 
+			spec repository: self repositoryUrlString.
 			spec
-				package: 'Soup-Zinc';
-				package: 'Soup-Core' with: [ spec includes: 'Soup-Zinc' ] ]
+				package: 'Soup.gemstone-Core' with: [ spec requires: 'XMLSupport' ];
+				package: 'Soup-Tests-Core' with: [ spec requires: 'Soup.gemstone-Core' ];
+				package: 'Soup-Help' with: [ spec requires: 'Soup.gemstone-Core' ];
+				package: 'Soup-XPath' with: [ spec requires: 'Soup.gemstone-Core' ];
+				package: 'Soup-Zinc' with: [ spec requires: 'Soup.gemstone-Core' ].
+			spec project: 'XMLSupport' with: [ self XMLSupportProjectSpec: spec ].
+			spec
+				group: 'default' with: #('Core' 'Tests');
+				group: 'Core' with: #('Soup.gemstone-Core' 'Soup-XPath');
+				group: 'Tests' with: #('Soup-Tests-Core') ].
+
