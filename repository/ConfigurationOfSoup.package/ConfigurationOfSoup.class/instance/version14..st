@@ -8,7 +8,7 @@ version14: spec
 - Fix for Pharo 2.0.'.
 		spec author: 'SeanDeNigris'.
 		spec timestamp: '08/02/2013 11:27'.
-		spec project: 'XMLSupport' with: #'stable'.
+		spec project: 'XMLSupport' with: #stable.
 		spec 
 			package: 'Soup-Core' with: 'Soup-Core-CamilloBruni.14';
 			package: 'Soup-Tests-Core' with: 'Soup-Tests-Core-AlexandreBergel.5';
@@ -29,4 +29,4 @@ version14: spec
 			package: 'Soup-Help' with: 'Soup-Help-SeanDeNigris.3';
 			package: 'Soup-XPath' with: 'Soup-XPath-CamilloBruni.3'. ].
 	spec for: #gemstone do:[
-			spec package:'Soup.gemstone-Core' with: 'Soup.gemstone-Core-PaulDeBruicker.1']
+			spec package:'SoupGemstone-Core' with: 'SoupGemstone-Core-PaulDeBruicker.1']

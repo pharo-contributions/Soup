@@ -2,7 +2,7 @@ baselines
 baseline14: spec
 	<version: '1.4-baseline'>
 	spec
-		for: #pharo
+		for: #squeakCommon
 		do: [ 
 			spec blessing: #baseline.
 			spec description: 'Migrated to SmalltalkHub'.
@@ -15,10 +15,9 @@ baseline14: spec
 				package: 'Soup-Help' with: [ spec requires: 'Soup-Core' ];
 				package: 'Soup-XPath' with: [ spec requires: 'Soup-Core' ];
 				package: 'Soup-Zinc' with: [ spec requires: 'Soup-Core' ].
-			spec
-				project: 'XMLSupport'
-				with: [ 
-					spec
+			spec 
+				project: 'XMLSupport' 
+				with: [ spec
 						className: 'ConfigurationOfXMLSupport';
 						versionString: #stable;
 						repository: 'http://www.squeaksource.com/XMLSupport' ].
@@ -29,15 +28,22 @@ baseline14: spec
 	spec
 		for: #gemstone
 		do: [ 
-			spec repository: self repositoryUrlString.
+			spec repository: 'http://www.smalltalkhub.com/mc/PharoExtras/Soup/main'.
+			spec 
+				project: 'XMLSupport' 
+				with: [ spec
+						className: 'ConfigurationOfXMLSupport';
+						versionString: #stable;
+						repository: 'http://www.smalltalkhub.com/mc/pdebruic/XMLSupport' ].
 			spec
-				package: 'Soup.gemstone-Core' with: [ spec requires: 'XMLSupport' ];
-				package: 'Soup-Tests-Core' with: [ spec requires: 'Soup.gemstone-Core' ];
-				package: 'Soup-Help' with: [ spec requires: 'Soup.gemstone-Core' ];
-				package: 'Soup-XPath' with: [ spec requires: 'Soup.gemstone-Core' ];
-				package: 'Soup-Zinc' with: [ spec requires: 'Soup.gemstone-Core' ].
-			spec project: 'XMLSupport' with: [ self XMLSupportProjectSpec: spec ].
+				package: 'SoupGemstone-Core' with: [ spec requires: 'XMLSupport' ];
+				package: 'Soup-Tests-Core' with: [ spec requires: 'SoupGemstone-Core' ];
+				package: 'Soup-Help' with: [ spec requires: 'SoupGemstone-Core' ];
+				package: 'Soup-XPath' with: [ spec requires: 'SoupGemstone-Core' ];
+				package: 'Soup-Zinc' with: [ spec requires: 'SoupGemstone-Core' ].
+
 			spec
 				group: 'default' with: #('Core' 'Tests');
-				group: 'Core' with: #('Soup.gemstone-Core' 'Soup-XPath');
-				group: 'Tests' with: #('Soup-Tests-Core') ]
+				group: 'Core' with: #('SoupGemstone-Core');
+				group: 'Tests' with: #('Soup-Tests-Core') ].
+
