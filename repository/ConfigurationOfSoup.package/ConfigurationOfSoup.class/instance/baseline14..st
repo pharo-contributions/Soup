@@ -8,14 +8,20 @@ baseline14: spec
 			spec description: 'Migrated to SmalltalkHub'.
 			spec author: 'StephaneDucasse'.
 			spec timestamp: '21/02/2013'.
-			spec repository: self repositoryUrlString.
+			spec repository: 'http://www.smalltalkhub.com/mc/PharoExtras/Soup/main'.
 			spec
 				package: 'Soup-Core' with: [ spec requires: 'XMLSupport' ];
 				package: 'Soup-Tests-Core' with: [ spec requires: 'Soup-Core' ];
 				package: 'Soup-Help' with: [ spec requires: 'Soup-Core' ];
 				package: 'Soup-XPath' with: [ spec requires: 'Soup-Core' ];
 				package: 'Soup-Zinc' with: [ spec requires: 'Soup-Core' ].
-			spec project: 'XMLSupport' with: [ self XMLSupportProjectSpec: spec ].
+			spec
+				project: 'XMLSupport'
+				with: [ 
+					spec
+						className: 'ConfigurationOfXMLSupport';
+						versionString: #stable;
+						repository: 'http://www.squeaksource.com/XMLSupport' ].
 			spec
 				group: 'default' with: #('Core' 'Tests');
 				group: 'Core' with: #('Soup-Core' 'Soup-XPath');
@@ -34,5 +40,4 @@ baseline14: spec
 			spec
 				group: 'default' with: #('Core' 'Tests');
 				group: 'Core' with: #('Soup.gemstone-Core' 'Soup-XPath');
-				group: 'Tests' with: #('Soup-Tests-Core') ].
-
+				group: 'Tests' with: #('Soup-Tests-Core') ]
