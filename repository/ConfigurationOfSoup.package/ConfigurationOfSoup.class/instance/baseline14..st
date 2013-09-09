@@ -34,7 +34,7 @@ baseline14: spec
 				with: [ spec
 						className: 'ConfigurationOfXMLSupport';
 						versionString: #stable;
-						repository: 'http://www.smalltalkhub.com/mc/pdebruic/XMLSupport' ].
+						repository: 'http://www.smalltalkhub.com/mc/pdebruic/XMLSupport/main' ].
 			spec
 				package: 'SoupGemstone-Core' with: [ spec requires: 'XMLSupport' ];
 				package: 'Soup-Tests-Core' with: [ spec requires: 'SoupGemstone-Core' ];
