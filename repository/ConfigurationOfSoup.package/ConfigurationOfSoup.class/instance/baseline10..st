@@ -13,4 +13,10 @@ baseline10: spec
 				package: 'Soup-Core' with: [ spec requires: 'XMLSupport' ];
 				package: 'Soup-Tests-Core' with: [ spec requires: 'Soup-Core' ];
 				package: 'Soup-Help' with: [ spec requires: 'Soup-Core' ].
-			spec project: 'XMLSupport' with: [ self XMLSupportProjectSpec: spec ] ]
+			spec
+				project: 'XMLSupport'
+				with: [ 
+					spec
+						className: 'ConfigurationOfXMLSupport';
+						versionString: #stable;
+						repository: 'http://www.squeaksource.com/XMLSupport' ] ]
