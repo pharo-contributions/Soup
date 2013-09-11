@@ -34,4 +34,4 @@ version14: spec
 				package: 'Soup-Tests-Core' with: 'Soup-Tests-Core-SeanDeNigris.7';
 				package: 'Soup-Help' with: 'Soup-Help-SeanDeNigris.3';
 				package: 'Soup-XPath' with: 'Soup-XPath-CamilloBruni.3' ].
-	spec for: #gemstone do: [ spec package: 'SoupGemstone-Core' with: 'SoupGemstone-Core-PaulDeBruicker.2' ]
+	spec for: #gemstone do: [ spec package: 'SoupGemstone-Core' with: 'SoupGemstone-Core-PaulDeBruicker.1' ]
