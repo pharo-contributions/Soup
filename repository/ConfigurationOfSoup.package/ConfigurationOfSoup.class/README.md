@@ -1,7 +1,13 @@
 !!!Current loading expressions and dev history
- 
+
+1/10/2013 - Migrated to XMLParser.
 [[[
 (ConfigurationOfSoup project version: #'stable') load
+(ConfigurationOfSoup project version: '1.5') load
+]]]
+
+[[[
+(ConfigurationOfSoup project version: #'development') load
 (ConfigurationOfSoup project version: '1.4') load
 ]]]
 
