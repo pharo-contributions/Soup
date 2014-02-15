@@ -2,7 +2,7 @@ baselines
 baseline15: spec
 	<version: '1.5-baseline'>
 	spec
-		for: #common
+		for: #squeakCommon
 		do: [ 
 			spec blessing: #baseline.
 			spec description: 'Using now XMLParser'.
@@ -34,7 +34,7 @@ baseline15: spec
 				with: [ spec
 						className: 'ConfigurationOfXMLSupport';
 						versionString: #stable;
-						repository: 'http://www.smalltalkhub.com/mc/pdebruic/XMLSupport/main' ].
+						repository: 'http://seaside.gemstone.com/ss/MetacelloRepository'  ].
 			spec
 				package: 'SoupGemstone-Core' with: [ spec requires: 'XMLSupport' ];
 				package: 'Soup-Tests-Core' with: [ spec requires: 'SoupGemstone-Core' ];

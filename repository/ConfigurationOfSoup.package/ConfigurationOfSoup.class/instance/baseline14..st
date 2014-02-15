@@ -34,7 +34,7 @@ baseline14: spec
 				with: [ spec
 						className: 'ConfigurationOfXMLSupport';
 						versionString: #stable;
-						repository: 'http://www.squeaksource/MetacelloRepository' ].
+						repository: 'http://seaside.gemstone.com/ss/MetacelloRepository'  ].
 			spec
 				package: 'SoupGemstone-Core' with: [ spec requires: 'XMLSupport' ];
 				package: 'Soup-Tests-Core' with: [ spec requires: 'SoupGemstone-Core' ];
