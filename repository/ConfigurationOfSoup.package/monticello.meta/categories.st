@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'ConfigurationOfSoup'!
+SystemOrganization addCategory: #ConfigurationOfSoup!
