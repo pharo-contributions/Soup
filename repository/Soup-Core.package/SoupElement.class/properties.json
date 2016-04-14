@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "Object",
-	"category" : "Soup-Core",
+	"category" : "Soup-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

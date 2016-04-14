@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "TorstenBergmann 4/14/2016 08:19",
 	"super" : "SoupString",
-	"category" : "Soup-Core",
+	"category" : "Soup-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
