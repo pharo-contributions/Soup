@@ -1,4 +1,0 @@
-tests
-todotestNonBreakingSpaces
-
-	self halt.

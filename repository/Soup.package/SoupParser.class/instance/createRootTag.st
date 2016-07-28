@@ -1,3 +1,0 @@
-initializing
-createRootTag
-	^ Soup new

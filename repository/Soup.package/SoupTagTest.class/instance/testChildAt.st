@@ -1,3 +1,0 @@
-accessing
-testChildAt
-	self testAddChild

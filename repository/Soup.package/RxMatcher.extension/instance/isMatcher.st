@@ -1,3 +1,0 @@
-*Soup-testing
-isMatcher
-	^ true
