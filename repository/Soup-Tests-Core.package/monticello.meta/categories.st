@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Soup-Tests-Core'!
+SystemOrganization addCategory: 'Soup-Tests-Core'!
