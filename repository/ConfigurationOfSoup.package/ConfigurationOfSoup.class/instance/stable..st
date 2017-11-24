@@ -4,7 +4,7 @@ stable: spec
 
 	spec for: #'common' version: '1.9'.
 
-	spec for: #'gemstone' version: '1.4'.
+	spec for: #'gemstone' version: '1.4.1'.
 
 	spec for: #'pharo1.3.x' version: '0.2'.
 
