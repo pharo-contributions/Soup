@@ -4,5 +4,4 @@ initializeNonNestableBlockTagsForHtml
 		#address -> #().
 		#form -> #().
 		#p -> #().
-		#pre -> #().
 	}.
