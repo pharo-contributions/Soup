@@ -1,8 +1,8 @@
 *Soup-Tools-Inspector
-gtInspectChildsOn: composite
+gtInspectChildrenOn: composite
 	<gtInspectorPresentationOrder: 0>  
 	
-	^(composite tree)	 
+	^ (composite tree)	 
 			shouldValidate: false;
 			title: 'Children';
 			display: [ children ];
