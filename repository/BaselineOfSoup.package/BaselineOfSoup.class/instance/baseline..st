@@ -11,8 +11,6 @@ baseline: spec
 		spec 
 			package: 'Soup-Core' with: [
 				spec requires: #('XMLParser' ). ];
-			package: 'Soup-Zinc' with: [
-				spec requires: #('Soup-Core' ). ];
 			package: 'Soup-XPath' with: [
 				spec requires: #('Soup-Core' ). ];
 			package: 'Soup-Help' with: [
@@ -20,7 +18,7 @@ baseline: spec
 			package: 'Soup-Tests-Core' with: [
 				spec requires: #('Soup-Core' ). ];
 			package: #'Soup-Tools' with: [
-				spec requires: #('Soup-Core' 'Soup-Zinc' 'Soup-XPath' 'Soup-Help' ). ].
+				spec requires: #('Soup-Core' 'Soup-XPath' 'Soup-Help' ). ].
 		spec 
 			group: 'Tests' with: #('Soup-Tests-Core' );
 			group: 'default' with: #('Core' 'Tests' 'Tools' );
