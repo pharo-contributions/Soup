@@ -1,5 +1,7 @@
 # Soup
 
+Soup is a simple HTML scraping library. 
+
 ## Install
 
 ```Smalltalk
