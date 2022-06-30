@@ -24,3 +24,7 @@ baseline: spec
 			spec repository: 'github://pharo-contributions/XML-XMLParser' ].
 		spec package: 'Soup-Core' with: [
 			spec requires: #('XMLParser' ). ] ].
+
+	spec for: #GToolkit do: [
+		spec package: 'Soup-GToolkit' with: [
+			spec requires: #('Soup-Core' ). ] ].

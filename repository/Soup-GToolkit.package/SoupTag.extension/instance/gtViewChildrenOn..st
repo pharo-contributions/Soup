@@ -7,4 +7,4 @@ gtViewChildrenOn: aView
 		title: 'Children' translated;
 		priority: 25;
 		items: [ self children ];
-		children: #children.
+		children: #children
