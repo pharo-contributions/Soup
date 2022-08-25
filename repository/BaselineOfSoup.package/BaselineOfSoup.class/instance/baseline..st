@@ -5,7 +5,9 @@ baseline: spec
 	spec for: #'common' do: [
 		spec 
 			package: 'Soup-Core' with: [
-				spec requires: #('Soup-Platform-Pharo' ). ];
+				spec includes: #('Soup-Platform-Pharo' ). ];
+			package: 'Soup-Platform-Pharo' with: [
+				spec requires: #('Soup-Core' ). ];
 			package: 'Soup-Platform-Pharo';
 			package: 'Soup-XPath' with: [
 				spec requires: #('Soup-Core' ). ];
