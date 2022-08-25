@@ -2,7 +2,7 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'Soup',
-      #directory : 'repository',
+      #directory : 'src',
       #platforms : [ #pharo ]
     }
   ]
