@@ -8,7 +8,6 @@ baseline: spec
 				spec includes: #('Soup-Platform-Pharo' ). ];
 			package: 'Soup-Platform-Pharo' with: [
 				spec requires: #('Soup-Core' ). ];
-			package: 'Soup-Platform-Pharo';
 			package: 'Soup-XPath' with: [
 				spec requires: #('Soup-Core' ). ];
 			package: 'Soup-Help' with: [
