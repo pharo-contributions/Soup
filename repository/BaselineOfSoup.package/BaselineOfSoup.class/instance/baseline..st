@@ -4,7 +4,9 @@ baseline: spec
 
 	spec for: #'common' do: [
 		spec 
-			package: 'Soup-Core';
+			package: 'Soup-Core' with: [
+				spec requires: #('Soup-Platform-Pharo' ). ];
+			package: 'Soup-Platform-Pharo';
 			package: 'Soup-XPath' with: [
 				spec requires: #('Soup-Core' ). ];
 			package: 'Soup-Help' with: [
@@ -19,6 +21,11 @@ baseline: spec
 			group: 'Core' with: #('Soup-Core' 'Soup-XPath' );
 			group: 'Tools' with: #(#'Soup-Tools' ). ].
 			
+	spec for: #(#'pharo8.x') do: [
+		spec 
+			"Create an alias "
+			package: 'Soup-Platform-Pharo' with: 'Soup-Platform-PharoPre9' ].
+		
 	spec for: #notGToolkit do: [
 		spec baseline: 'XMLParser' with: [
 			spec repository: 'github://pharo-contributions/XML-XMLParser' ].
