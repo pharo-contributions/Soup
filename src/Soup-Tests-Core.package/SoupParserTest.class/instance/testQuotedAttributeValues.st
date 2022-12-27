@@ -1,6 +1,9 @@
 tests
 testQuotedAttributeValues
 	| text soup |
+	
+	<expectedFailure>
+	
 	self 
 		assertSoupFrom: '<foo attr=''bar''></foo>' 
 		printsAs: '<foo attr="bar"></foo>'.
