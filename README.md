@@ -1,3 +1,5 @@
+[![Tests](https://github.com/pharo-contributions/Soup/actions/workflows/runTests.yaml/badge.svg)](https://github.com/pharo-contributions/Soup/actions/workflows/runTests.yaml)
+
 Soup is a simple HTML scraping library, ported from Python of [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/).
 
 ## Install
