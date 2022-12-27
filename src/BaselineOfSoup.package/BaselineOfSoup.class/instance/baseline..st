@@ -15,7 +15,7 @@ baseline: spec
 			package: 'Soup-Tests-Core' with: [
 				spec requires: #('Soup-Core' ). ];
 			package: #'Soup-Tools' with: [
-				spec requires: #('Soup-Core' 'Soup-XPath' 'Soup-Help' ). ].
+				spec requires: #('Soup-Core' 'Soup-XPath'). ].
 		spec 
 			group: 'Tests' with: #('Soup-Tests-Core' );
 			group: 'default' with: #('Core' 'Tests' 'Tools' );
