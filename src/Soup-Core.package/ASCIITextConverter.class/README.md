@@ -1,1 +1,0 @@
-A text converter for ASCII text

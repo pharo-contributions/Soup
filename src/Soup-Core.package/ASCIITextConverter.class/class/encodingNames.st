@@ -1,3 +1,0 @@
-encodings
-encodingNames 
-	^ #('ascii') copy
