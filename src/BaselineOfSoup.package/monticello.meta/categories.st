@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfSoup!
+self packageOrganizer ensurePackage: #BaselineOfSoup withTags: #()!
