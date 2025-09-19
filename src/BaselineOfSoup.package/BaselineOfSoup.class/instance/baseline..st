@@ -29,7 +29,7 @@ baseline: spec
 		
 	spec for: #notGToolkit do: [
 		spec baseline: 'XMLParser' with: [
-			spec repository: 'github://pharo-contributions/XML-XMLParser' ].
+			spec repository: 'github://pharo-contributions/XML-XMLParser:v3' ].
 		spec package: 'Soup-Core' with: [
 			spec requires: #('XMLParser' ). ] ].
 
